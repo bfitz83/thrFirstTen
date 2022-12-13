@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    min-width: 100vh;
+}
+
+table {
+    table-layout:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+td {
+    width: 100%;
+    padding: 0;
+}

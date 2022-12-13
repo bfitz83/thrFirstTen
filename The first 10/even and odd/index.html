@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inputs">
+            <div class="num-input">
+                <Label for="low-num">Lowest Number</Label>
+                <input type="numeric" name="low-num" id="low-num">
+            </div>
+
+            <div class="num-input">
+                <Label>Highest Number</Label>
+                <input type="numeric" name="high-num" id="high-num">
+            </div>
+
+            <button id="run">Run</button>
+        </div>
+        <div class="list">
+            <div >
+                <h2>List of all numbers</h2>
+                <p id="all-num-dis"> </p>
+            </div>
+            
+            <div >
+                <h2>List of even numbers</h2>
+                <p id="even-num-dis"> </p>
+            </div>
+            
+            <div >
+                <h2>List of odd numbers</h2>
+                <p id="odd-num-dis"> </p>
+            </div>
+        </div>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Sortin' the Numbers</h1>
+            <div class="number-input">
+                <label for="number-el">Input numbers here:</label>
+                <input type="numeric" name="number-el" id="number-el" placeholder="Numbers one at a time">
+                <button id="add-number-btn">Add Number</button>
+            </div>
+            <div class="high-low-selector">
+                <label for="high-low">Sort high to low:</label>
+                <input type="radio" name="select" id="high-low">
+            </div>
+            <div class="low-high-selector">
+                <label for="low-high">Sort low to high:</label>
+                <input type="radio" name="select" id="low-high">
+            </div>
+                
+                <button id="run">Run</button>
+        </div>    
+        
+    
+    
+        <div class="output">
+            <p id="result"></p>
+        </div>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
