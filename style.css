@@ -57,9 +57,6 @@ header{
     transform: translateZ(-5px) scale(1.5);
     height: 100%;
     width: 100%;
-    /* background-size: 200px 700px;
-    background-attachment: fixed;
-    background-position: bottom center; */
 }
 
 .background,
@@ -93,7 +90,7 @@ header{
 
 ul, a {
     text-decoration: none;
-    color: #0000ff;
+    color: #7474ff;
 }
 
 /* this is for the cards */
@@ -105,20 +102,39 @@ ul, a {
     grid-template-columns: auto auto auto;
     gap: 10px 10px;
     align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 150px 0px;
 }
 
 .card-head {
-    background-color: #333;
+    background-color: #5e6369;
     color: antiquewhite;
 }
 
 h3 {
     margin: 0;
+    padding: 10px;
 }
 
 .card {
     max-width: 300px;
-    border: 1px solid red;
+    box-shadow: 5px 5px 15px rgb(160, 138, 138);
     border-radius: 7px;
     overflow: hidden;
+
 }
+
+.card-body p{
+    background-color: #3a3d42;
+}
+
+/* This is the footer */
+
+footer p {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
