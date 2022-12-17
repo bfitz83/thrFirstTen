@@ -20,7 +20,7 @@ p, ul {
 
 li, ul {
     margin: 0;
-    padding: 0;
+    padding: 5px 0;
 }
 
 p, .about-el {
@@ -128,8 +128,9 @@ h3 {
 }
 
 .card {
+    border: 1px solid rgb(77, 77, 77);
     max-width: 300px;
-    box-shadow: 5px 5px 15px rgb(160, 138, 138);
+    box-shadow: 3px 3px 25px rgb(0, 0, 0);
     border-radius: 7px;
     overflow: hidden;
 
