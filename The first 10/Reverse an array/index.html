@@ -8,27 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <H1>Arrange an Array</H1>
-        <div>
-            <input type="numeric" name="number-el" id="number-el">
-            <button id="add-num">Add Number</button>
-        </div>
-        <div>
-            <label for="high-low">Organize hight to low</label>
-            <input type="radio" name="radio-selector" id="high-low">
-        </div>
-        <div>
-            <label for="low-high">Organize low to high</label>
-            <input type="radio" name="radio-selector" id="low-high">
-        </div>
-        <div>
-            <label for="reverse">Reverse</label>
-            <input type="radio" name="radio-selector" id="reverse">
-        </div>
-
-        <button id="run">Run</button>
+    <div class="container">
+        <div class="main">
+            <H1>Arrange an Array</H1>
+                <div>
+                    <label for="number-el">Imput numbers here:</label>
+                    <input type="numeric" name="number-el" id="number-el" placeholder="Numbers one at a time">
+                    <button id="add-num">Add Number</button>
+                </div>
+                <div>
+                    <label for="high-low">Organize hight to low</label>
+                    <input type="radio" name="radio-selector" id="high-low">
+                </div>
+                <div>
+                    <label for="low-high">Organize low to high</label>
+                    <input type="radio" name="radio-selector" id="low-high">
+                </div>
+                <div>
+                    <label for="reverse">Reverse</label>
+                    <input type="radio" name="radio-selector" id="reverse">
+                </div>
+                <button id="run">Run</button>
+            </div>
     
         <p id="answer-el"></p>
+    </div>
 <script src="index.js"></script>
 </body>
 </html>

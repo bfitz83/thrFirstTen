@@ -8,19 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <div class="number-input">
-            <h1>Add up a list of numbers</h1>
-            <div>
-                <label for="number-el">Input numbers here:</label>
-                <input type="numberic" name="number-el" id="number-el" placeholder="Numbers one at a time">
-                <button id="add-number-btn">Add Number</button>
+    <main class="container">
+        <div class="main">
+            <div class="number-input">
+                <h1>Add up a list of numbers</h1>
+                <div>
+                    <label for="number-el">Input numbers here:</label>
+                    <input type="numberic" name="number-el" id="number-el" placeholder="Numbers one at a time">
+                    <button id="add-number-btn">Add Number</button>
+                </div>
+                <button id="run">Total</button>
             </div>
-            <button id="run">Total</button>
         </div>
-        
         <div class="answer-section">
+            <h3>List of numbers to be added:</h3>
             <p id="list-of-nums"></p>
+            <h3>Total:</h3>
             <p id="answer-el"></p>
         </div>
     
