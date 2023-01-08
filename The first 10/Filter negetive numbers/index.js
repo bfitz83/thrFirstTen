@@ -14,21 +14,11 @@ function filterNegative(x){
 
 
 
-let wordString = "Here is a string of words"
-console.log(wordString);
-
-
-function filterSpaces(x){
-   
-    let noSpcStr = wordString.replace(/\s+/g, '');
-    console.log(noSpcStr);
-}
 
 
 
 
 filterNegative()
-filterSpaces()
 
 
 
