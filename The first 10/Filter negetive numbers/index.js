@@ -25,13 +25,10 @@ function filterSpaces(x){
 }
 
 
-function numberOfVowels(){
-    let numOfVowels = wordString.replace(/[^aeiou]/gi, "").length
-    console.log(numOfVowels);
-}
+
 
 filterNegative()
 filterSpaces()
-numberOfVowels()
+
 
 
