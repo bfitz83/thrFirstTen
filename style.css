@@ -122,6 +122,13 @@ ul, a {
     color: antiquewhite;
 }
 
+.card:hover > .card-head {
+    background-color: #7474ff;
+    text-shadow: 0 0 10px black;
+}
+
+
+
 h3 {
     margin: 0;
     padding: 10px;
@@ -136,8 +143,14 @@ h3 {
 
 }
 
-.card-body p{
+.card-body {
     background-color: #3a3d42;
+}
+
+.card:hover > .card-body p{
+    background-color: #ababff;
+    text-shadow: 0 0 5px rgb(134, 134, 134);
+    color: #333;
 }
 
 /* This is the footer */
