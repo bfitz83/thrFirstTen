@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="main">
+            <h1>Filter out negitive numbers</h1>
+            <label for="number-input">Enter a list of negetive and positive numbers:</label>
+            <input type="numeric" name="number-input" id="number-input" placeholder="enter numbers one at a time">
+            <button id="add-number">Add number</button>
+            <button id="run">Filter</button>
+        </div>
+        <div class="output">
+            <h2>The complete list:</h2>
+            <p id="array-list"></p>
+            <h2>The possitive numbers:</h2>
+            <p id="output-el"></p>
+        </div>
+    </div>
 <script src="index.js"></script>
 </body>
 </html>
