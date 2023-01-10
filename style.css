@@ -158,6 +158,8 @@ h3 {
     color: #333;
 }
 
+/* This controls responsive layout for mobile */
+
 @media (min-width: 600px) {
     .cards {
         grid-template-columns: auto auto;
