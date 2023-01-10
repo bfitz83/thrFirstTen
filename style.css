@@ -5,10 +5,16 @@ body{
 }
 
 .title {
+    text-align: center;
     font-size: 7rem;
     color: antiquewhite;
     text-shadow: 0 0 5px black;
     margin: 0;
+    padding: 0 3rem 0 3rem;
+}
+
+.about-el {
+    padding-top: 3rem;
 }
 
 p, ul {
@@ -109,8 +115,7 @@ ul, a {
     background-size: cover;
     color: #333;
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px 10px;
+    grid-template-columns: auto;
     align-items: center;
     justify-content: center;
     gap: 40px;
@@ -151,6 +156,18 @@ h3 {
     background-color: #ababff;
     text-shadow: 0 0 5px rgb(134, 134, 134);
     color: #333;
+}
+
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width: 900px) {
+    .cards {
+        grid-template-columns: auto auto auto;
+    }
 }
 
 /* This is the footer */
