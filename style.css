@@ -106,6 +106,10 @@ ul, a {
     color: #7474ff;
 }
 
+.add-pro-about p{
+    padding: 50px 20px;
+}
+
 /* this is for the cards */
 .cards{
     border: 1px solid black;
@@ -122,19 +126,27 @@ ul, a {
     padding: 150px 0px;
 }
 
-.card-head {
+.card-head,
+.card-head a,
+.card-head p {
     background-color: #5e6369;
     color: antiquewhite;
 }
 
-.card:hover > .card-head {
+.card-head p {
+    font-size: 1rem ;
+}
+
+.card:hover > .card-head,
+.card-head > .card-head p,
+.card-head > .card-head a,
+.card-head > u {
     background-color: #7474ff;
     text-shadow: 0 0 10px black;
 }
 
-
-
-h3 {
+.card-head p,
+ h3 {
     margin: 0;
     padding: 10px;
 }
